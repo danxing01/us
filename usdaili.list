@@ -1,5 +1,12 @@
 # 单行走us代理
 
+# AI
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,datadoghq
+IP-ASN,399358,no-resolve
+DOMAIN-SUFFIX,metowolf.com
+#银行
 DOMAIN-KEYWORD,hsbc
 DOMAIN-SUFFIX,transferwise.com
 DOMAIN-KEYWORD,wise
