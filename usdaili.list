@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,siftscience.com
 DOMAIN-SUFFIX,ntp.org
 IP-ASN,399358,no-resolve
 DOMAIN-SUFFIX,metowolf.com
+DOMAIN-SUFFIX,snapcraft
 #银行
 DOMAIN-KEYWORD,hsbc
 DOMAIN-SUFFIX,transferwise.com
