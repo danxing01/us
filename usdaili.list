@@ -50,6 +50,11 @@ DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org //通过UDP 4500端口实现VoWifi
 DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,optimizely.com
+DOMAIN-SUFFIX,redirect.ultra.me
+DOMAIN-KEYWORD,ultramobile
+DOMAIN-SUFFIX,tello.com
+DOMAIN-SUFFIX,numberbarn.com
 # ASN
 IP-ASN,40682,no-resolve
 IP-ASN,46989,no-resolve
