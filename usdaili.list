@@ -19,11 +19,13 @@ DOMAIN-KEYWORD,capital
 DOMAIN-KEYWORD,sofi
 DOMAIN-KEYWORD,zelle
 DOMAIN-SUFFIX,sentry.io
+
 # 富国
 DOMAIN-KEYWORD,wells
 DOMAIN-SUFFIX,wf.com
 DOMAIN-KEYWORD,appdynamics
 DOMAIN-KEYWORD,equifax
+DOMAIN-KEYWORD,revolut
 DOMAIN-KEYWORD,amex
 DOMAIN-KEYWORD,american
 DOMAIN-KEYWORD,optimizely.com
@@ -38,6 +40,9 @@ DOMAIN-KEYWORD,paymentech
 DOMAIN-KEYWORD,wirex
 DOMAIN-KEYWORD,mixpanel
 DOMAIN-KEYWORD,monzo
+DOMAIN-KEYWORD,lemfi
+DOMAIN,app.lemonade.finance
+DOMAIN-SUFFIX,fiat24.com
 # t-mobile规则,包括wificall
 # > DX注：需支持UDP 
 IP-CIDR,66.94.0.0/19,no-resolve
