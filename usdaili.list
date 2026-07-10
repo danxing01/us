@@ -54,6 +54,10 @@ IP-CIDR,206.29.177.36/32,no-resolve
 IP-CIDR,208.54.0.0/16,no-resolve
 DOMAIN-KEYWORD,t-mobile
 DOMAIN-SUFFIX,t-mo.cc
+DOMAIN-KEYWORD,usmobile
+DOMAIN-KEYWORD,tmobile
+DOMAIN-KEYWORD,redpocket
+DOMAIN-SUFFIX,att.com
 # Wifi Calling
 DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org //通过UDP 4500端口实现VoWifi
