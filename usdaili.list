@@ -58,6 +58,7 @@ DOMAIN-KEYWORD,usmobile
 DOMAIN-KEYWORD,tmobile
 DOMAIN-KEYWORD,redpocket
 DOMAIN-SUFFIX,att.com
+DOMAIN-KEYWORD,lycamobile
 # Wifi Calling
 DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org //通过UDP 4500端口实现VoWifi
