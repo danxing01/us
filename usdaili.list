@@ -39,6 +39,10 @@ DOMAIN-KEYWORD,jpmorgan
 DOMAIN-KEYWORD,paymentech
 DOMAIN-KEYWORD,wirex
 DOMAIN-KEYWORD,mixpanel
+DOMAIN-SUFFIX,minority.com
+DOMAIN-SUFFIX,mparticle.com
+DOMAIN-SUFFIX,fpconfig.net
+DOMAIN-SUFFIX,iterable.com
 DOMAIN-KEYWORD,monzo
 DOMAIN-KEYWORD,lemfi
 DOMAIN,app.lemonade.finance
