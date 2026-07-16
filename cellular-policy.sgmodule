@@ -1,0 +1,10 @@
+#!name=网络策略自动切换
+#!desc=Wi-Fi 和中国大陆出口使用香港节点，非大陆出口使用直连
+#!system=ios
+#!category=网络
+#!arguments=GROUP_NAME:🚀 节点选择,MAINLAND_POLICY:🇭🇰 香港节点,DIRECT_POLICY:DIRECT,EVENT_DELAY:2.5,TIMEOUT:6,RETRIES:3,RETRY_DELAY:2
+#!arguments-desc=GROUP_NAME：需要自动切换的手动策略组\nMAINLAND_POLICY：Wi-Fi 和中国大陆出口使用的策略\nDIRECT_POLICY：非大陆出口使用的策略\nEVENT_DELAY：网络变化后的等待秒数\nTIMEOUT：单次查询超时秒数\nRETRIES：最多尝试次数\nRETRY_DELAY：重试间隔秒数
+
+[Script]
+网络策略自动切换 = type=event, event-name=network-changed, timeout=30, engine=jsc, script-path=https://raw.githubusercontent.com/danxing01/us/714eaa07332353909a4cba62a422c3fe86bc46a2/cellular-policy.js, argument="GROUP_NAME={{{GROUP_NAME}}}&MAINLAND_POLICY={{{MAINLAND_POLICY}}}&DIRECT_POLICY={{{DIRECT_POLICY}}}&EVENT_DELAY={{{EVENT_DELAY}}}&TIMEOUT={{{TIMEOUT}}}&RETRIES={{{RETRIES}}}&RETRY_DELAY={{{RETRY_DELAY}}}"
+网络策略手动检测 = type=generic, timeout=30, engine=jsc, script-path=https://raw.githubusercontent.com/danxing01/us/714eaa07332353909a4cba62a422c3fe86bc46a2/cellular-policy.js, argument="GROUP_NAME={{{GROUP_NAME}}}&MAINLAND_POLICY={{{MAINLAND_POLICY}}}&DIRECT_POLICY={{{DIRECT_POLICY}}}&EVENT_DELAY={{{EVENT_DELAY}}}&TIMEOUT={{{TIMEOUT}}}&RETRIES={{{RETRIES}}}&RETRY_DELAY={{{RETRY_DELAY}}}"
