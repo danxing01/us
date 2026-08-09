@@ -47,6 +47,7 @@ DOMAIN-KEYWORD,monzo
 DOMAIN-KEYWORD,lemfi
 DOMAIN,app.lemonade.finance
 DOMAIN-SUFFIX,fiat24.com
+DOMAIN-SUFFIX,sardine.ai
 # t-mobile规则,包括wificall
 # > DX注：需支持UDP 
 IP-CIDR,66.94.0.0/19,no-resolve
