@@ -12,3 +12,7 @@ DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,duolingo.cn
 DOMAIN-SUFFIX,duolingo.com
+DOMAIN,translate.googleapis.com
+DOMAIN-SUFFIX,translate.googleapis.com
+DOMAIN-SUFFIX,translate.google.com
+DOMAIN-SUFFIX,translate-pa.googleapis.com
